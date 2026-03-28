@@ -1,13 +1,3 @@
-/**
- * Agent 02 — Contact Finder
- *
- * Input:  { company: string, location: string, profile: BusinessProfile }
- * Output: ContactCard object
- *
- * Uses the business profile from Agent 01 to locate contact details.
- * Checks company website, Google Business Profile, IndiaMART, Justdial, Yelp,
- * and other relevant directories. Prioritises phone, email, WhatsApp.
- */
 
 import { callClaude } from "../lib/claudeClient.js";
 

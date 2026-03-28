@@ -1,13 +1,3 @@
-/**
- * Agent 03 — Outreach Writer
- *
- * Input:  { company: string, profile: BusinessProfile, contact: ContactCard }
- * Output: OutreachMessage string
- *
- * Generates a personalised WhatsApp-style cold outreach message as if sent
- * from Brokai Labs — an AI systems company that builds voice receptionists,
- * SaaS platforms, and automation tools for SMBs.
- */
 
 import { callClaude } from "../lib/claudeClient.js";
 

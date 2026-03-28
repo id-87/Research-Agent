@@ -1,12 +1,3 @@
-/**
- * Agent 01 — Researcher
- *
- * Input:  { company: string, location: string }
- * Output: BusinessProfile object
- *
- * Searches multiple sources (website, Google, news, marketplaces) to extract
- * what the business does, size signals, digital presence, and tools/systems in use.
- */
 
 import { callClaude } from "../lib/claudeClient.js";
 

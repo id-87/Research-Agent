@@ -1,9 +1,4 @@
-/**
- * Shared Claude API client
- *
- * Wraps the Anthropic /v1/messages endpoint.
- * All three agents use this — keeping API config in one place.
- */
+
 
 const MODEL = "claude-sonnet-4-20250514";
 const MAX_TOKENS = 1000;
